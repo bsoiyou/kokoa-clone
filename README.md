@@ -1,3 +1,3 @@
 # KoKoa Clone 2022
 
-HTML & CSS
+Web HTML & CSS
