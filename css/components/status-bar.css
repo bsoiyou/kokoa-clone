@@ -6,6 +6,8 @@
   box-sizing: border-box;
   top: 0px;
   padding: 5px 4px;
+  color: black;
+  background-color: white;
 }
 
 .status-bar span {
