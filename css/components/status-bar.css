@@ -5,13 +5,13 @@
   width: 100%;
   box-sizing: border-box;
   top: 0px;
-  padding: 5px 4px;
+  padding: 3px 4px;
   color: black;
   background-color: white;
 }
 
 .status-bar span {
-  font-size: 20px;
+  font-size: 17px;
 }
 
 .status-bar__column {
