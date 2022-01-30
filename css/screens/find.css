@@ -123,3 +123,22 @@
 .open-chat__heart-count span {
   margin-left: 5px;
 }
+
+@keyframes memberStatusAnimation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.open-chat__member-status {
+  animation: memberStatusAnimation 1.2s ease-in-out infinite;
+}
