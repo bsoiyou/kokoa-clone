@@ -45,7 +45,7 @@
 
 .main-chat {
   height: 100%;
-  margin-top: 120px;
+  margin-top: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -53,10 +53,10 @@
 }
 
 .main-chat__time-stamp {
-  font-size: 17px;
+  font-size: 12px;
   background-color: rgba(53, 53, 53, 0.2);
   color: rgba(255, 255, 255, 0.8);
-  padding: 10px 15px;
+  padding: 7px 12px;
   border-radius: 20px;
   margin-bottom: 25px;
 }
@@ -68,16 +68,16 @@
 }
 
 .message-row img {
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   object-fit: cover;
   border-radius: 35%;
-  margin-right: 13px;
+  margin-right: 10px;
 }
 
 .message__author,
 .message__time {
-  font-size: 20px;
+  font-size: 15px;
   opacity: 80%;
 }
 
@@ -87,16 +87,17 @@
 }
 
 .message__time {
-  font-size: 15px;
+  font-size: 12px;
 }
 
 .message__bubble {
   display: block;
   margin-top: 10px;
   margin-right: 10px;
-  font-size: 22px;
+  font-size: 13px;
   background-color: white;
-  padding: 10px 15px;
+  padding: 5px 10px;
+  padding-bottom: 8px;
   border-radius: 20px;
   border-top-left-radius: 0px;
 }
@@ -148,7 +149,7 @@
 
 .reply input {
   width: 100%;
-  font-size: 20px;
+  font-size: 15px;
   border: 1px solid rgba(53, 53, 53, 0.3);
   border-radius: 20px;
   padding: 10px;
@@ -159,32 +160,34 @@
 .reply__column:last-child i,
 .reply__column:last-child button {
   position: absolute;
-  top: 2px;
-  right: 4px;
-}
-
-.reply__column:last-child > i {
-  top: 6px;
-  right: 60px;
 }
 
 .reply__column:last-child button {
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   border-radius: 50%;
   background-color: var(--yellow);
-  padding: 10px;
+  padding: 8px;
   border: none;
-}
-.reply__column button:focus,
-.reply__column button:active {
-  outline: none;
+  top: 2px;
+  right: 3px;
 }
 
 .reply__column:last-child button i {
-  opacity: 0.8;
-  top: 6px;
-  right: 8px;
+  color: black;
+  font-size: 18px;
+  top: 8px;
+  right: 9px;
+}
+
+.reply__column:last-child .fa-smile {
+  top: 12px;
+  right: 50px;
+}
+
+.reply__column button:focus,
+.reply__column button:active {
+  outline: none;
 }
 
 .reply:focus-within .reply__column:first-child,

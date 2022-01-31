@@ -5,14 +5,12 @@
   width: 100%;
   box-sizing: border-box;
   top: 0px;
-  padding: 3px 4px;
+  padding: 2px 4px;
   color: black;
+  background-color: white;
+  z-index: 50;
+  font-size: 13px;
 }
-
-.status-bar span {
-  font-size: 17px;
-}
-
 .status-bar__column {
   width: 33%;
 }
@@ -35,6 +33,10 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
+}
+
+.status-bar__column:last-child i {
+  margin-top: 2px;
 }
 
 .status-bar__column .fa-battery-half {
